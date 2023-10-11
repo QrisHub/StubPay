@@ -36,10 +36,14 @@ img {
   flex: 1;
 }
 
-.left-half {
+.left-half, .right-half {
   padding: 30px 80px 30px 60px;
 }
 
+
+.subtext{
+  font-size: 12px;
+}
 .input {
   display: block;
   width: 100%;
@@ -57,6 +61,10 @@ img {
   font-size: 10px;
   color: rgb(255, 71, 71);
 }
+ul {
+  list-style: none;
+}
+
 
 .submit {
   margin-top: 50px;
@@ -68,4 +76,12 @@ img {
   font: inherit;
   font-size: 12px;
 	outline: inherit;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px
 }
